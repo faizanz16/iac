@@ -13,4 +13,5 @@ created Internet agteway,Nat gateway, Elastic IP for Nat gateway. Created necces
 s3role.tf for s3 access role and later used by ec2 insances.
 
 resources.tf file provisions Load Balancer, ASG with LC, and usig bootstrapping installed apache(httpd). It also contains Ploicy and neccessary alarms for Scale in and Scale out of instnaces in ASG.
+
 rds.tf used for persistance Layer(db) and connected with ec2 instances using Security groups.
